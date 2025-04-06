@@ -68,12 +68,12 @@ noButton.addEventListener("click", function () {
   if (clickCount === 9) mainImage.src = "images/gongzi.png"; // 工资
   if (clickCount === 10) mainImage.src = "images/shashou.png"; // 杀手
   if (clickCount === 11) mainImage.src = "images/decheng.png"; // 得逞
-  if (clickCount === 12) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount >= 13) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount === 12) mainImage.src = "images/jujue.png"; // 拒绝
+  if (clickCount >= 13) mainImage.src = "images/cry.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `小孙有对象啦！快去喊声男朋友听听！  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
