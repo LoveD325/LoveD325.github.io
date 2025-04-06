@@ -57,17 +57,17 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 13 次变化）
-  if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 5) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 6) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 7) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 8) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 9) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 10) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount === 11) mainImage.src = "images/crying.png"; // 哭
+  if (clickCount === 1) mainImage.src = "images/kelian.png"; // 可怜
+  if (clickCount === 2) mainImage.src = "images/kaolv.png"; // 考虑
+  if (clickCount === 3) mainImage.src = "images/juju.png"; // 橘橘
+  if (clickCount === 4) mainImage.src = "images/guagua.png"; // 呱呱
+  if (clickCount === 5) mainImage.src = "images/xiaobailong.png"; // 小白龙
+  if (clickCount === 6) mainImage.src = "images/renzhi.png"; // 人质
+  if (clickCount === 7) mainImage.src = "images/zuofan.png"; // 做饭
+  if (clickCount === 8) mainImage.src = "images/xiyifu.png"; // 洗衣服
+  if (clickCount === 9) mainImage.src = "images/gongzi.png"; // 工资
+  if (clickCount === 10) mainImage.src = "images/shashou.png"; // 杀手
+  if (clickCount === 11) mainImage.src = "images/decheng.png"; // 得逞
   if (clickCount === 12) mainImage.src = "images/crying.png"; // 哭
   if (clickCount >= 13) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
