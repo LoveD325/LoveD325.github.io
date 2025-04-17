@@ -25,6 +25,7 @@ const noTexts = [
   "我呱呱也来为他求求情！",
   "我小白龙来为他求求情！",
   "我做人质，你答应他吧！",
+  "为了我和小熊团聚，答应他吧！",
   "我能做饭的~",
   "也能洗衣服~",
   "工资不多~也会上交~",
@@ -63,13 +64,14 @@ noButton.addEventListener("click", function () {
   if (clickCount === 4) mainImage.src = "images/guagua.png"; // 呱呱
   if (clickCount === 5) mainImage.src = "images/xiaobailong.png"; // 小白龙
   if (clickCount === 6) mainImage.src = "images/renzhi.png"; // 人质
-  if (clickCount === 7) mainImage.src = "images/zuofan.png"; // 做饭
-  if (clickCount === 8) mainImage.src = "images/xiyifu.png"; // 洗衣服
-  if (clickCount === 9) mainImage.src = "images/gongzi.png"; // 工资
-  if (clickCount === 10) mainImage.src = "images/shashou.png"; // 杀手
-  if (clickCount === 11) mainImage.src = "images/decheng.png"; // 得逞
-  if (clickCount === 12) mainImage.src = "images/jujue.png"; // 拒绝
-  if (clickCount >= 13) mainImage.src = "images/cry.png"; // 之后一直是哭
+  if (clickCount === 7) mainImage.src = "images/xiaolaohu.png"; // 做饭
+  if (clickCount === 8) mainImage.src = "images/zuofan.png"; // 做饭
+  if (clickCount === 9) mainImage.src = "images/xiyifu.png"; // 洗衣服
+  if (clickCount === 10) mainImage.src = "images/gongzi.png"; // 工资
+  if (clickCount === 11) mainImage.src = "images/shashou.png"; // 杀手
+  if (clickCount === 12) mainImage.src = "images/decheng.png"; // 得逞
+  if (clickCount === 13) mainImage.src = "images/jujue.png"; // 拒绝
+  if (clickCount >= 14) mainImage.src = "images/cry.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
