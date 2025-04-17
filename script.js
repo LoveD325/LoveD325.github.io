@@ -53,7 +53,7 @@ noButton.addEventListener("click", function () {
   questionText.style.transform = `translateY(-${moveUp}px)`;
 
   // No 文案变化（前 13 次变化）
-  if (clickCount <= 13) {
+  if (clickCount <= 14) {
     noButton.innerText = noTexts[clickCount - 1];
   }
 
